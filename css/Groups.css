@@ -1,0 +1,82 @@
+﻿#groupList
+{
+    padding: 0px;
+    max-height: 405px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    #groupList .grupAdiStyle
+    {
+        text-align: left;
+        width: 80%;
+    }
+
+    #groupList .islemStyle
+    {
+        text-align: right;
+        width: 20%;
+    }
+
+    #groupList #tblGruplar
+    {
+        border: none;
+        font-size: 11px;
+    }
+
+        #groupList #tblGruplar tbody td
+        {
+            padding: 12px 13px !important;
+        }
+
+    #groupList thead input
+    {
+        margin: 5px 0px 5px 5px;
+        float: left;
+        color: #6a6f75;
+        padding: 2px 35px 2px 25px !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+        background: url(../images/search-dark.png) no-repeat 5px 8px #f8f8f8;
+    }
+
+    #groupList thead a
+    {
+        margin: 6px 1%;
+        padding: 8px 10px 8px 10px !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+#pgGroups #tabRecords #tblKisiler .checkBoxStyle
+{
+    width: 10%;
+    text-align: center;
+}
+
+#pgGroups #tabRecords #tblKisiler .adiSoyadiStyle
+{
+    width: 40%;
+    text-align: left;
+}
+
+#pgGroups #tabRecords #tblKisiler .gsmStyle
+{
+    width: 35%;
+    text-align: left;
+}
+
+#pgGroups #tabRecords #tblKisiler .islemStyle
+{
+    width: 15%;
+    text-align: center;
+}

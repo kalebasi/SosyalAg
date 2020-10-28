@@ -1,0 +1,7 @@
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\bin\Bitirme_Projesi.dll.config
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\bin\Bitirme_Projesi.dll
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\bin\Bitirme_Projesi.pdb
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\obj\Debug\Bitirme_Projesi.csprojAssemblyReference.cache
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\obj\Debug\Bitirme_Projesi.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\obj\Debug\Bitirme_Projesi.dll
+C:\Users\ibrahim\Desktop\Bitirme_Proje\Bitirme_Projesi\Bitirme_Projesi\obj\Debug\Bitirme_Projesi.pdb

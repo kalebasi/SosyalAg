@@ -1,0 +1,102 @@
+﻿body{
+    margin:0;
+    font-size:14px!important;
+    font-family:open sans,sans-serif;
+    color:#333;
+    line-height:20px;
+    background-color:#d3d9e0;
+}
+/*.uyeol-div-arkaplan {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s linear 0s;
+    background-image: none;
+    position: relative;
+    z-index:0;
+}*/
+/*.uyeol-div-altyazi{
+    color:#FFF;
+    font-size:24px;
+    line-height:32px;
+    position:absolute;
+    left:45px;
+    bottom:45px;
+}*/
+.uyeol-div-logo{
+    position:absolute;
+    left:15px;
+    top:15px;
+}
+.uyeol-div-logo-altyazi {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700 !important;
+}
+.uyeol-div-uyekayit{
+    position:absolute;
+    width:440px;
+    top:130px;
+    right:15px;
+    box-sizing:border-box;
+    padding:20px;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:10px;
+}
+.uyeol-div-text{
+    margin-top:10px!important;
+}
+.uyeol-text{
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    width:100%;
+    box-sizing:border-box;
+}
+.uyeol-btn{
+    text-align:center!important;
+    margin-bottom:20px;
+    margin-top:30px!important;
+}
+.uyeol-btn-2{
+    padding:10px 50px;
+    font-size:16px;
+    background:#FF8E00;
+    color:#fff;
+    border-radius:5px;
+}
+.uyeol-btn-2:hover,
+/*.uyeol-btn-2:active,*/
+.uyeol-btn-2:active{
+    background-color:#2abb22;
+    text-decoration:none;
+    color:#fff;
+}
+.uyeol-btn-2::after{
+    text-decoration:none;
+}
+.uyeol-backstretch{
+    position:absolute;
+    width:1263px;
+    height:600px;
+}
+.uyeol-backstretch-item{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    border:none;
+    width:100%;
+    height:100%;
+    z-index:-999999;
+}
+.uyeol-backstretch-image{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    border:none;
+    width:100%;
+    height:100%;
+}

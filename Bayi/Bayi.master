@@ -1,0 +1,282 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Bayi.master.cs" Inherits="Bayi_Bayi" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="<%= ResolveClientUrl("favicon.ico") %>" />
+    <title>Yönetici Panel</title>
+    <link href="<%= ResolveClientUrl("~/css/style.css") %>" rel="stylesheet" />
+    <%-- <link href="<%= ResolveClientUrl("~/components/editor/jquery.cleditor.css") %>" rel="stylesheet"" />--%>
+    <%-- <link href="<%= ResolveClientUrl("~/components/marquee/jquery.marquee.css") %>" rel="stylesheet" />--%>
+    <!-- Bootstrap core CSS -->
+
+    <link href="<%= ResolveClientUrl("~/bootstrap/css/bootstrap.min.css") %>" rel="stylesheet" />
+    <link href="../css/font-awesome/css/fontawesome-all.css" rel="stylesheet" />
+    <%-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>--%>
+
+    <link href="<%= ResolveClientUrl("~/bootstrap/css/bootstrap-theme.min.css") %>" rel="stylesheet" />
+    <%--<link href="<%= ResolveClientUrl("~/bootstrap/css/navbar.css") %>" rel="stylesheet"/>--%>
+    <%--     <link href="<%= ResolveClientUrl("~/components/multiselect/multiselect.css") %>"  rel="stylesheet" />--%>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="~/~/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <%-- <script src="<%= ResolveClientUrl("~/bootstrap/js/ie-emulation-modes-warning.js") %>"></script>--%>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/ajax-jquery.min.js"></script>
+
+    <script src="<%= ResolveClientUrl("~/bootstrap/js/bootstrap.min.js") %>"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <%-- <script src="<%= ResolveClientUrl("../bootstrap/js/ie10-viewport-bug-workaround.js") %>"></script>--%>
+
+    <link href="../css/style.css" rel="stylesheet" />
+    <!--Jquery-->
+    <!--[if lte IE 8]>
+    <script language="javascript" type="text/javascript" src="~/components/flot/excanvas.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/jquery.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/ui/jquery.ui.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/ui/jquery.autotab.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/ui/timepicker.js") %>"></script>
+
+    <%-- <script type="text/javascript" src="<%= ResolveClientUrl("~/components/colorpicker/js/colorpicker.js") %>"></script>--%>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/checkboxes/iphone.check.js") %>"></script>
+
+    <link href="<%= ResolveClientUrl("~/components/dropdown/jquery.dropdown.css") %>" rel="stylesheet" type="text/css" />
+
+    <script src="<%= ResolveClientUrl("~/components/dropdown/jquery.dropdown.js") %>" type="text/javascript"></script>
+
+    <%-- <script type="text/javascript" src="<%= ResolveClientUrl("~/components/elfinder/js/elfinder.full.js") %>"></script>--%>
+
+    <%-- <script type="text/javascript" src="<%= ResolveClientUrl("~/components/scrolltop/scrolltopcontrol.js") %>"></script>--%>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/fancybox/jquery.fancybox.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/jscrollpane/mousewheel.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/jscrollpane/mwheelIntent.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/jscrollpane/jscrollpane.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/spinner/ui.spinner.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/tipsy/jquery.tipsy.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/editor/jquery.cleditor.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/chosen/chosen.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/confirm/jquery.confirm.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/validationEngine/jquery.validationEngine.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/validationEngine/jquery.validationEngine-en.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/vticker/jquery.vticker-min.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/sourcerer/sourcerer.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/fullcalendar/fullcalendar.js") %>"></script>
+
+    <%--    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/flot/flot.js") %>"></script>--%>
+
+    <%-- <script type="text/javascript" src="<%= ResolveClientUrl("~/components/flot/flot.pie.min.js") %>"></script>--%>
+
+    <%-- <script type="text/javascript" src="<%= ResolveClientUrl("~/components/flot/flot.resize.min.js") %>"></script>--%>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/flot/graphtable.js") %>"></script>
+
+    <%--    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/uploadify/swfobject.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/uploadify/uploadify.js") %>"></script>--%>
+    <script src="<%= ResolveClientUrl("~/components/uploadifive/jquery.uploadifive.js") %>" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="<%= ResolveClientUrl("~/components/uploadifive/uploadifive.css") %>" />
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/checkboxes/customInput.jquery.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/effect/jquery-jrumble.js") %>"></script>
+
+    <%--  <script type="text/javascript" src="<%= ResolveClientUrl("~/components/filestyle/jquery.filestyle.js") %>"></script>--%>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/placeholder/jquery.placeholder.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/Jcrop/jquery.Jcrop.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/imgTransform/jquery.transform.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/rating_star/rating_star.js") %>"></script>
+
+    <%--  <script type="text/javascript" src="<%= ResolveClientUrl("~/components/dualListBox/dualListBox.js") %>"></script>--%>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/wizard/jquery.smartWizard.js") %>"></script>
+
+    <link href="<%= ResolveClientUrl("~/components/wizard/smart_wizard.css") %>" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/maskedinput/jquery.maskedinput.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/maskedinput/jquery.maskMoney.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/highlightText/highlightText.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/elastic/jquery.elastic.source.js") %>"></script>
+
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/jquery.cookie.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/asistan.custom.js") %>"></script>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/other-custom.js") %>"></script>
+
+    <link href="<%= ResolveClientUrl("~/components/datatables/dataTables.css") %>" rel="stylesheet" type="text/css" />
+
+    <script src="<%= ResolveClientUrl("~/components/pagination/jquery.paging.min.js") %>" type="text/javascript"></script>
+
+    <script src="<%= ResolveClientUrl("~/components/pagination/jquery.paging.js") %>" type="text/javascript"></script>
+
+    <script src="<%= ResolveClientUrl("~/js/formatDateTime.js") %>" type="text/javascript"></script>
+    <script src='<%= "js/Master.js?ver="+DateTime.Now.ToShortDateString()  %>' type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="<%= ResolveClientUrl("~/components/treetable/stylesheets/jquery.treetable.css") %>" />
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/treetable/javascripts/src/jquery.treetable.js") %>"></script>
+    <link href="<%= ResolveClientUrl("~/bootstrap/css/bootstrap-multiselect.css") %>" rel="stylesheet" type="text/css" />
+    <script src="<%= ResolveClientUrl("~/bootstrap/js/bootstrap-multiselect.js") %>" type="text/javascript"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/SpecialCalender/jquery.takvim.js") %>"></script>
+    <link href="<%= ResolveClientUrl("~/components/SpecialCalender/Takvim.css") %>" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="alertMessage" class="error" style="display: none;">
+        </div>
+        <div id="content-box" class="container" style="width: 100%">
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="Default.aspx">
+                            <%--<img src="../images/logo.png" height="40" />--%></a>
+
+                    </div>
+                    <%--<%
+                      KullaniciModel.BayiYetkili kullaniciObject = new KullaniciModel.BayiYetkili();
+                      kullaniciObject = Session["bayiObject"] as KullaniciModel.BayiYetkili;
+                    %>--%>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+
+                            <%--<% if (kullaniciObject.KullaniciTurID == 1)
+                              {
+                                  if (kullaniciObject.BayiKodu == 1)
+                                  {
+                            %>--%>
+                            <%--     <li class=""><a href="BayiListesi.aspx">BAYİLER</a></li>--%>
+                            <%--<%   } %>--%>
+
+
+                          <%--  <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Galeri Yönetimi <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+
+                                    <li>
+                                        <p><a href="#"><span class="fas fa-home blue"></span>Anasayfa</a></p>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <p><a href="Kullanicilar.aspx"><span class="fas fa-car blue"></span>Galeri</a></p>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <p><a href="#"><span class="fas fa-address-card blue"></span>Hakkımızda</a></p>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <p><a href="#"><span class="fas fa-comments blue"></span>İletişim</a></p>
+                                    </li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </li>--%>
+                            <%--<% }
+                              } %>--%>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span id="DivAdiSoyadi" runat="server"></span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <%--  <li><a href="KullaniciProfilim.aspx" class=" pop_box"><span class="fas fa-user green"></span>Profilim</a></li>--%>
+                                    <li class="divider"></li>
+                                    <li><a href="#" id="logout"><span class="fas fa-lock darkblue"></span>Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <%--<ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a title="Bugünkü Hatırlatmalar" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" id="btnHatirlatma" aria-expanded="true">
+                                    <span class="label label-primary"><span class="glyphicon glyphicon-bell gi-1x"></span></span>
+                                    <div class="HatirlatmaBildirim Bildirim">0</div>
+                                    <span id="ctl00_DivBildirim"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <div id="drop-hatirlatma" style="max-height: 500px; overflow-y: auto;">
+                                        <li>
+                                            <h4 style="text-align: center">BUGÜNKÜ HATIRLATMALAR</h4>
+                                        </li>
+                                        <li><i class="fa fa-bell hatirlatmaSuan gecmis-hatirlatma" aria-hidden="true"></i><a href="#"><span>Bugüne ait hatırlatmanız bulunmamaktadır.</span> </a></li>
+                                    </div>
+                                </ul>
+
+                            </li>
+
+                        </ul>--%>
+                    </div>
+                    <!--/.nav-collapse -->
+
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <a href="MusteriBorcDetayi.aspx" class="pop_box" style="display: none" title="MÜŞTERİ DETAY">popupbox</a>
+
+        </div>
+
+        <!--/.container-fluid -->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <a href="MusteriBorcDetayi.aspx" class="pop_box" style="display: none" title="MÜŞTERİ DETAY">popupbox</a>
+
+        <!-- /container -->
+
+        <div id="footer" style="display: none">
+            <div class="container">
+                <%-- <p class="text-muted credit">Yazılım <a href="http://www.bcssoft.com" class="pop_box">BCS SOFT</a>.</p>--%>
+            </div>
+        </div>
+        <div id="lblKullaniciTurID" runat="server" style="display: none"></div>
+        <div id="lblMusteriID" runat="server" style="display: none"></div>
+    </form>
+
+</body>
+<%--    <script type="text/javascript" src="<%= ResolveClientUrl("~/components/multiselect/multiselect.js") %>"></script>--%>
+</html>

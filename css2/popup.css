@@ -1,0 +1,174 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 50px;
+}
+.swMain {
+    position: relative;
+    display: table;
+    margin: 0px;
+    padding: 0px;
+    border: 0 solid #CCC;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.swMain ul.anchor {
+        position: relative;
+        display: block;
+        float: left;
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+        clear: both;
+        border: 0 solid #CCCCCC;
+        background: transparent;
+        width: 100%;
+}
+    .swMain ul.anchor li {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-right: 6px;
+        border: 0px solid #E0E0E0;
+        float: left;
+        top: 1px;
+    }
+
+        .swMain ul.anchor li a {
+            display: inline-table;
+            position: relative;
+            float: left;
+            margin: 5px 0 0 0;
+            padding: 3px 10px;
+            height: 30px;
+            width: 100%;
+            text-decoration: none;
+            outline-style: none;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            z-index: 99;
+        }
+            .swMain ul.anchor li a.selected {
+                background: #2184be;
+                color: #fff;
+                border: 1px solid #0c78b8;
+                cursor: text;
+                -moz-box-shadow: 2px 2px 4px #888;
+                -webkit-box-shadow: 2px 2px 4px #888;
+                box-shadow: 2px 2px 4px #888;
+            }
+            .swMain ul.anchor li a .stepNumber {
+                position: relative;
+                float: left;
+                width: 20px;
+                text-align: center;
+                padding: 2px 2px 5px;
+                font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+            }
+            .swMain ul.anchor li a .stepDesc {
+                position: relative;
+                display: block;
+                float: left;
+                text-align: left;
+                padding: 7px 2px;
+                font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+            }
+.modal_dialog .content {
+    padding: 15px 15px;
+    background-color: #fafafa;
+    border: solid 1px #ccc;
+    min-height: 150px;
+    overflow-x: auto;
+}
+div.section {
+    display: block;
+    position: relative;
+    min-height: 67px;
+    border-bottom: 1px solid #efefef;
+    border-top: none;
+    padding: 0px 0 10px 0;
+    margin-bottom: 2px;
+    width: 100%;
+}
+    div.section2 > label, div.section > label {
+        color: #404040;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2px;
+        width: auto;
+        padding: 11px 0 0px 0;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+.f_help {
+    display: block;
+    font-size: 10px;
+    padding: 4px 0;
+    color: #a3a3a3;
+}
+input[type='text'], input[type='password'] {
+    height: 30px;
+    line-height: 28px;
+}
+textarea, input[type='text'], input[type='password'], select {
+    padding: 2px 2px 2px 2px;
+}
+input.large, form textarea.large {
+    width: 69%;
+    max-width: 69%;
+}
+input[type=text], input[type=password], .fileupload {
+    background-position: 5px 5px;
+    border: solid 1px #c9c9c9;
+    outline: 0;
+}
+select, input, textarea {
+    font: 12px Arial,sans-serif;
+    position: relative;
+}
+input, select {
+    vertical-align: middle;
+}
+.swMain .loader {
+    position: relative;
+    display: none;
+    float: left;
+    margin: 2px 0 0 2px;
+    padding: 8px 10px 8px 40px;
+    border: 1px solid #FFD700;
+    font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+    color: #5A5655;
+    background: #FFF url(../../images/loadder/loader_green.gif) no-repeat 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 998;
+}
+.swMain .buttonFinish {
+    display: block;
+    float: right;
+    margin: 5px 10px 0 3px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+    width: 100px;
+    opacity: 0.8;
+    color: #FFF;
+    outline-style: none;
+    background: #2184be;
+    border: 1px solid #0c78b8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.clear {
+    clear: both;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+}

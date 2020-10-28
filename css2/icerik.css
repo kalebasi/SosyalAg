@@ -1,0 +1,296 @@
+﻿body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight:400;
+    line-height:1.5;
+    color:#000;
+    text-align:left;
+    background-color:#fff;
+}
+.icerik-sayfasi{
+    background-color:#f6f6f6;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.icerik-sayfasi>.container{
+    display:flex;
+    justify-content:flex-start;
+    align-content:flex-start;
+}
+.container{
+    /*width:100%;*/
+    padding-right:7.5px;
+    padding-left:7.5px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.icerik-sayfasi>.ustbilgi{
+    position:relative;
+    padding-top:140px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.icerik-sayfasi>.ustbilgi>.arkaPlan{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+.icerik-sayfasi>.ustbilgi>.arkaPlan>.arkaPlan2{
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:1;
+    background-size:cover;
+    display:block;
+    background-position:center;
+    width:100%;
+    height:100%;
+    filter:blur(20px);
+}
+.icerik-sayfasi >.ustbilgi >.arkaPlan >.arkaPlan3 {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.icerik-sayfasi>.ustbilgi>.container{
+    z-index:4;
+    padding-left:190.5px;
+    position:relative;
+}
+.icerik-sayfasi>.ustbilgi>.container>.resim{
+    position:absolute;
+    left:7.5px;
+    top:-70px;
+    width:200px;
+    height:286px;
+    border:1px solid #fff;
+    border-left:2px solid #fff;
+    overflow:hidden;
+}
+.icerik-sayfasi > .ustbilgi > .container > .resim img {
+    width:100%;
+    height:100%;
+    }
+.icerik-sayfasi >.ustbilgi>.container>.kitapadi{
+    margin-bottom:3px;
+    margin-left:25px;
+
+}
+.icerik-sayfasi >.ustbilgi>.container >.kitapadi h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icerik-sayfasi >.ustbilgi>.container>.kitapadi>.yazar {
+    color: #cacaca;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.546875rem;
+}
+.icerik-sayfasi>.ustbilgi>.container>.kitapadi>.yazar h4 {
+    color: #f5f5f5;
+    display:inline-block;
+}
+.icerik-sayfasi > .container > .sol-kisim {
+    width: 220px;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+.icerik-sayfasi>.container>.orta-kisim{
+    padding-top:15px;
+    /*padding-left:30px;*/
+}
+.baslik {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    margin-bottom: 7px;
+    padding-left: 7.5px;
+    margin-top: 24px;
+}
+.baslik,.baslik a,.baslik h2,.baslik h2 a,.baslik h1,.baslik h1 a {
+    line-height: 50px;
+    color: #727375;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+.yorum {
+    color: #000;
+    padding: 12px;
+    background: floralwhite;
+    font-size: 0.9375rem;
+    line-height: 1.34765625rem;
+    border-radius: 4px;
+    border: 1px solid #edeae3;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto 10px;
+}
+.yorum>.ust-baslik {
+    position: relative;
+    padding-left: 54px;
+    min-height: 46px;
+    padding-right: 12px;
+    padding-top: 0;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.yorum >.ust-baslik>.resim {
+    position: absolute;
+    left: 0;
+    width: 54px;
+    height: 54px;
+    border-radius: 46px;
+    overflow: hidden;
+}
+.yorum>.ust-baslik>.yazi{
+    color:#000;
+    margin-left:10px;
+}
+.yorum >.ust-baslik>.yazi>.okur-adi h3 {
+    font-weight:bold;
+    color: #000;
+}
+.yorum >.bosluk {
+        margin: -12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        /*text-align: center;*/
+        /*font-size: .7325rem;*/
+        /*position: relative;*/
+        background: #f9f9f9;
+        /*display: flex;*/
+        /*justify-content: flex-start;
+        color: #636363;*/
+        /*letter-spacing: .3px;
+        flex-wrap: wrap;*/
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 10px 12px;
+}
+.yorum>.icerik {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    color: #000;
+}
+.add-comment{
+    font-size:25px;
+    margin-top:40px;
+    opacity:0.7;
+}
+.add-comment:hover{
+    opacity:1;
+}
+.icerik-sayfasi > .container > .ana-sag {
+    width: 300px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.trans-baslik {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    margin-bottom: 7px;
+    padding-left: 7.5px;
+    margin-top: 24px;
+}
+
+.trans-baslik, .trans-baslik a, .trans-baslik h2, .trans-baslik h2 a, .trans-baslik h1, .trans-baslik h1 a {
+    font-size: 2.5rem;
+    line-height: 1.3125rem;
+    color: #727375;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+.kutu, .ana-baslik, .ana-liste {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #edeae3;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.ana-sag >.bilgiler >.oge {
+    display: flex;
+    margin-bottom: 6px;
+}
+.ana-sag > .bilgiler > .oge >.kutu-baslik{
+    text-align: right;
+    color: #646464;
+    width: 32%;
+    padding-right: 4px;
+}
+.ana-sag> .bilgiler>.oge>.bilgi {
+    width: 68%;
+    text-align: left;
+}
+.icerik-sayfasi > .container > .button {
+    position: absolute;
+    float: right;
+    margin-left: 985px;
+    margin-top: 20px;
+    background: #81C784;
+    border-radius: 10px;
+    font-size: 22px;
+    font-style: oblique;
+    height: 40px;
+    opacity:0.75;
+}
+.icerik-sayfasi > .container > .button:hover{
+    opacity:2;
+}
+.sol-kisim > #btnbegendim {
+    display: inline-block;
+    float: left;
+    padding-left: 8px;
+    border-radius:5px;
+}
+.sol-kisim > #btnbegenmedim {
+    display: inline-block;
+    margin-left: 6px;
+    border-radius:5px;
+}
+.liste-yatay-kutu .liste-yatay > ul, .liste-yatay-kutu-kucuk .liste-yatay > ul {
+    display: flex;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding:2px;
+}
+.liste-yatay-kutu.liste-yatay-kutu-kucuk .liste-yatay > ul > li, .liste-yatay-kutu-kucuk.liste-yatay-kutu-kucuk .liste-yatay > ul > li {
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    width: 47.6px;
+    background: transparent;
+    box-shadow: none;
+    /* border-radius: 0; */
+    margin-bottom: 15px;
+    list-style-type:none;
+}
+.liste-yatay-kutu.liste-yatay-kutu-kucuk .liste-yatay.okurlar > ul > li > .resim, .liste-yatay-kutu-kucuk.liste-yatay-kutu-kucuk .liste-yatay.okurlar > ul > li > .resim {
+    border-radius: 50%;
+    margin: 0;
+    width: 47.6px;
+    height: 47.6px;
+}
+.liste-yatay-kutu.liste-yatay-kutu-kucuk .liste-yatay > ul > li .resim img, .liste-yatay-kutu-kucuk.liste-yatay-kutu-kucuk .liste-yatay > ul > li .resim img {
+    width: 100%;
+    min-height: 100%;
+}

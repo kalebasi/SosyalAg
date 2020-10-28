@@ -1,0 +1,296 @@
+﻿body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    background-color: #fff;
+}
+.profil>.ustresimler>.kapak {
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.profil>.ustresimler>.kapak img {
+    width:100%;
+    height:100%;
+}
+.profil>.ustresimler>.ust{
+    background: #fff;
+    border-bottom: 1px solid #edeae3;
+}
+.profil>.ustresimler>.ust>.container {
+    position: relative;
+}
+.profil>.ustresimler>.ust>.container>.resim {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    bottom: -120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+.profil>.ustresimler>.ust>.container>.resim img {
+    width:100%;
+    height:100%;
+}
+.profil>.container>.sol-kisim {
+    width: 228px;
+    padding-top: 35px;
+    margin-right: 15px;
+}
+.sol-kisim>.kisisel-bilgiler {
+    margin-top: 20px; 
+    margin-left: 10px;
+}
+.sol-kisim>.kullanici-adi{
+   margin-top:90px;
+   margin-left:10px;
+   text-align:center;
+}
+.kisisel-bilgiler>.bilgiler{
+    display: flex;
+}
+.kisisel-bilgiler>.bilgiler>.ikon{
+    font-size:18px;
+    margin-top:5px;
+    margin-right:8px;
+}
+#kullaniciProfilYorumlari >.yorum > .ust-baslik {
+    margin-bottom: 12px;
+}
+#kullaniciProfilYorumlari> .yorum > .kitap-yorum {
+    margin-top: 6px;
+    position: relative;
+    padding-left: 46px;
+    min-height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    top: 1px;
+    left: 0px;
+}
+#kullaniciProfilYorumlari >.yorum > .kitap-yorum > .resim {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    width: 44px;
+    height: 54px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.kitap-yorum > .kitap-hakkinda > .adi {
+    position: absolute;
+    margin-top: 18px;
+}
+.yorum>.kitap-yorum >.kitap-hakkinda span {
+        font-size:18px;
+        margin:20px;
+}
+.kisisel-bilgiler > .profil-btn {
+    margin-top:10px;
+}
+.profil> .ustresimler>.camera >.camera-kapak{
+    position:relative;
+    float:right;
+    font-size:35px;
+    margin-top:-40px;
+    color:lightgray;
+    background-color:transparent;
+    border:0;
+}
+.camera-profil{
+    font-size:25px;
+    background-color:transparent;
+    border:0;
+}
+#kullaniciProfilYorumlari >.yorum {
+    background: aliceblue;
+}
+.kitapligim {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 820px;
+}
+.kitapligim>.kitaplik{
+    width:150px;
+    border-radius:8px;
+    font-size:18px;
+}
+.icerik-sayfasi>.ustresimler>.ust>.container>.menu{
+    padding-left:220px;
+    height:50px;
+}
+    .icerik-sayfasi > .ustresimler > .ust > .container > .menu > .menu-1k {
+        padding: 0 5px;
+        margin-top: 0;
+        padding: 0 14px;
+        font-size: 15px;
+        display: flex;
+        position: relative;
+        width: 840px;
+        height: 40px;
+    }
+.menu-1k > div {
+    margin-top: auto;
+    font-size: 20px;
+    margin-right: 20px;
+    font-style: italic;
+    font-family: Times New Roman;
+}
+.menu-1k > div a{
+    color:#333;
+}
+.kutu > .baslik {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px;
+    padding: 15px 15px 10px;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-weight: bold;  
+}
+    .kutu > .liste {
+        margin: -15px;
+        width: auto;
+        padding:0px;
+    }
+ul.liste.sirali.lg > li {
+    padding-left: 160px;
+}
+ul.liste.altAlta > li.kitap {
+    min-height: 190px;
+}
+ul.liste > li {
+    position: relative;
+    padding: 10px 10px 10px 95px;
+    border-bottom: 1px solid #edeae3;
+    display: inline-grid;
+}
+ul.liste.sirali.lg > li .resim {
+    left: 50px;
+}
+ul.liste.lg > li.kitap .resim {
+    width: 100px;
+    height: 155px;
+}
+ul.liste.lg > li .resim {
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 20px;
+}
+ul.liste.lg > li .resim img{
+    height:155px;
+    max-width:100%;
+}
+ul.liste > li .resim {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+ul.liste > li .baslik {
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-weight: 500;
+}
+/*ul.liste > li .bilgi {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    color: gray;
+    margin-bottom: 3px;
+}
+ul.liste.lg > li .bilgi {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}*/
+    ul .liste > li .ekBilgi {
+    overflow: inherit;
+    text-overflow: clip;
+    white-space: normal;
+}
+/*ul.liste.lg > li .bilgi {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}*/
+ul.liste.altAlta > li.kitap .buton {
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    height: auto;
+    padding-right: 0;
+}
+ul.liste > li .buton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+ul.liste > li .sira, ul.liste > li .siraIkon {
+    top: 0;
+    left: 0;
+    width: 40px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 100%;
+}
+.orta-kisim>.profil-gonderiler>#kullaniciProfilYorumlari{
+    width:700px;
+}
+#kullaniciProfilYorumlari > .kutu > .kitaplar > .kitap > .kitap-adi {
+    margin-top: 10px;
+    padding: 20px 20px 20px 0;
+    font-size: 15px;
+    /* font-family: sans-serif; */
+    font-weight: bolder;
+    font-style: italic;
+}
+#kullaniciProfilYorumlari > .kutu > .kitaplar > .kitap > .bilgi {
+    /* padding: 20px; */
+    margin-top: -50px;
+    /* margin-top: 10px; */
+    padding: 20px 20px 20px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+}
+    #kullaniciProfilYorumlari > .kutu > .kitaplar > .kitap > .bilgi > .btn-group > .btn-danger>.durum {
+        text-align: center;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+#kullaniciProfilYorumlari>.kutu > .liste > .btnSil {
+    display: inherit;
+    float: right;
+    font-size: 15px;
+    opacity:0.5;
+}
+#kullaniciProfilYorumlari > .kutu > .liste > .btnSil:hover{
+    opacity: 1;
+}
